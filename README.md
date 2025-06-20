@@ -47,7 +47,11 @@ The above steps can be done with docker desktop too!
 
 
 ## Working Screenshots
-image.png
+![image](https://github.com/user-attachments/assets/b9cde708-3b44-4433-abff-43d544fbb77a)
+![image](https://github.com/user-attachments/assets/ab23c2f4-a916-482c-8a70-09ef07485b7e)
+
+
+
 
 
 ## Notes
@@ -55,4 +59,5 @@ image.png
 - I have not used a seperate requirements.txt file as the only thing which I needed to install is *requests*, so directly gave the command in the Dockerfile.
 - The tool uses the [Frankfurter API](https://www.frankfurter.app/) for up-to-date exchange rates.
 - Only files needed for the build are included in the Docker image, thanks to `.dockerignore`.
+- In the future, I might work on making so that you don't need to clone the repo!
 
