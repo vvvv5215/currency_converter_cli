@@ -16,6 +16,11 @@ A simple command-line tool to convert currency amounts using real-time exchange 
 
 ### 1. Run with Docker
 
+Clone the repo:
+```sh
+git clone https://github.com/vvvv5215/currency_converter_cli.git
+```
+
 Build the Docker image:
 ```sh
 docker build -t currency-converter .
